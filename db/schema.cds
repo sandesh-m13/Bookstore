@@ -8,6 +8,10 @@ namespace tutorial.db;
 entity Books : cuid, managed {
   title    : String; //always use lowercase for property names
   author   : Association to Authors;
+  genre    : String;
+  publishedAt : Date;
+  pages    : Integer;
+  price    : Decimal(9,2);
   Chapters : Composition of many Chapters
                on Chapters.book = $self;
 }
@@ -22,4 +26,4 @@ entity Chapters : cuid, managed {
       number : Integer;
   key book   : Association to Books;
 
-}
+}  

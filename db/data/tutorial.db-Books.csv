@@ -1,6 +1,7 @@
-ID,title,author_ID,createdAt,createdBy,modifiedAt,modifiedBy
-25393148-2357-4168-94ea-55b6a3915ae0,title-25393148,17561815-36ff-49fd-9812-60e1b68b3f00,2013-09-14T00:00:00.000Z,createdBy.f49h8@example.net,2020-01-17T00:00:00.000Z,modifiedBy.f49h8@example.net
-25393149-a6d7-4b06-a8cc-12e5a58fd92c,title-25393149,17561815-36ff-49fd-9812-60e1b68b3f00,2017-10-07T00:00:00.000Z,createdBy.f49h9@example.com,2000-08-14T00:00:00.000Z,modifiedBy.f49h9@example.net
-25393150-e92d-4d92-84e1-8445bccb718e,title-25393150,17561815-36ff-49fd-9812-60e1b68b3f00,2009-02-09T00:00:00.000Z,createdBy.f49ha@example.com,2018-07-30T00:00:00.000Z,modifiedBy.f49ha@example.com
-25393151-48ba-4eab-8828-aeb3d24c5fbd,title-25393151,17561815-36ff-49fd-9812-60e1b68b3f00,2016-02-25T00:00:00.000Z,createdBy.f49hb@example.org,2011-12-18T00:00:00.000Z,modifiedBy.f49hb@example.org
-25393152-c4a6-4cae-9502-81a56f07ad42,title-25393152,17561815-36ff-49fd-9812-60e1b68b3f00,2015-05-15T00:00:00.000Z,createdBy.f49hc@example.com,2019-11-24T00:00:00.000Z,modifiedBy.f49hc@example.org
+ID,title,author_ID,genre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
+d8b5c92f-a391-4c7b-91f8-9a6d0c1c3b12,The Silent Stars,c7e4d89a-f210-4e3a-861c-5959c1c22d44,Science Fiction,2021-08-14,320,19.99,2021-06-01T10:15:30.000Z,admin@books.com,2022-01-10T14:20:00.000Z,editor@books.com
+e9a3b84c-f12a-486c-a49b-7c8d9e0f1a23,Echoes of the Past,b4c2e10f-d93a-412e-a57b-3847e6c1a8bc,Historical Fiction,2018-11-02,450,24.50,2018-09-15T09:00:00.000Z,j.smith@publisher.net,2019-03-22T11:45:00.000Z,j.smith@publisher.net
+f1d2c3b4-e56a-498b-9c0d-1a2b3c4d5e6f,Data Science with Python,a3b1c2d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d,Technology,2023-01-20,210,39.99,2022-12-05T08:30:00.000Z,tech.pub@techbooks.org,2023-06-15T16:10:00.000Z,m.jones@techbooks.org
+a1b2c3d4-e5f6-497b-8c9d-0a1b2c3d4e5f,Culinary Wonders,f6e5d4c3-b2a1-409c-7d8e-9f0a1b2c3d4e,Cookbook,2015-05-10,150,29.95,2015-01-20T13:45:00.000Z,chef@culinary.com,2016-08-12T09:15:00.000Z,editor@culinary.com
+c3d4e5f6-a1b2-487c-9d0e-1f2a3b4c5d6e,The Last Heist,d4c3b2a1-e5f6-4a8b-9c0d-1e2f3a4b5c6d,Thriller,2022-09-28,380,14.99,2022-07-11T15:20:00.000Z,publishing@thrillers.net,2022-11-01T10:05:00.000Z,s.doe@thrillers.net
+84a7e9b2-3c1d-45f8-b2e1-4c6d8a9f0e1b,Mindful Living,e8d7c6b5-a4f3-42e1-b9c0-1d2e3f4a5b6c,Self-Help,2020-03-15,195,12.50,2019-11-22T08:00:00.000Z,content@wellness.org,2021-02-14T12:30:00.000Z,admin@wellness.org
