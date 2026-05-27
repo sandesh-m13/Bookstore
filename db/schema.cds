@@ -12,8 +12,22 @@ entity Books : cuid, managed {
   publishedAt : Date;
   pages       : Integer;
   price       : Decimal(9, 2);
+  stock       : Integer;
+  status      : Association to StatusCode;
+
   Chapters    : Composition of many Chapters //Uppercase property name for compositions only
                   on Chapters.book = $self;
+}
+
+entity StatusCode {
+  key code        : String(1) enum {
+        Available = 'A';
+        Low_Stock = 'L';
+        Unavailable = 'U';
+      };
+      criticality : Integer;
+      statusText  : String;
+
 }
 
 entity Authors : cuid, managed {
