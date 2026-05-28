@@ -1,6 +1,7 @@
 using {
   cuid,
-  managed
+  managed,
+  sap.common.Currencies,
 } from '@sap/cds/common';
 
 namespace tutorial.db;
@@ -12,9 +13,9 @@ entity Books : cuid, managed {
   publishedAt : Date;
   pages       : Integer;
   price       : Decimal(9, 2);
+  currency    : Association to Currencies;
   stock       : Integer;
   status      : Association to StatusCode;
-
   Chapters    : Composition of many Chapters //Uppercase property name for compositions only
                   on Chapters.book = $self;
 }

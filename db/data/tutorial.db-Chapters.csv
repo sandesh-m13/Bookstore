@@ -1,21 +1,41 @@
 book_ID,ID,number,title,pages,createdAt,createdBy,modifiedAt,modifiedBy
-3111696d-8e0e-4544-a582-964a322cbff0,22938906-b36a-4cd5-8ae0-3f6c71707dbd,77,title-22938906,51,2017-05-31T00:00:00.000Z,createdBy.dnnru@example.com,2000-04-16T00:00:00.000Z,modifiedBy.dnnru@example.net
-3111696d-8e0e-4544-a582-964a322cbff0,22938907-ca75-4510-a545-72a97d9a8ab8,35,title-22938907,27,2014-12-21T00:00:00.000Z,createdBy.dnnrv@example.net,2002-12-07T00:00:00.000Z,modifiedBy.dnnrv@example.org
-31116972-6153-46bf-8e6a-a8ba7f9b508b,10446448-3d4a-4235-a960-5c517b7a2f5a,86,title-10446448,99,2007-02-15T00:00:00.000Z,createdBy.67wj4@example.com,2001-04-14T00:00:00.000Z,modifiedBy.67wj4@example.net
-31116972-6153-46bf-8e6a-a8ba7f9b508b,10446449-8ec6-4dbf-bab1-7d443e48e7ca,51,title-10446449,13,2006-09-23T00:00:00.000Z,createdBy.67wj5@example.net,2016-12-06T00:00:00.000Z,modifiedBy.67wj5@example.org
-3111698d-c750-49be-9ff4-f7487e1cf4e1,623770a2-1ff6-405b-ac77-63c709460a76,91,title-623770,14,2004-10-10T00:00:00.000Z,createdBy.dday@example.com,2008-01-12T00:00:00.000Z,modifiedBy.dday@example.com
-3111698d-c750-49be-9ff4-f7487e1cf4e1,62377110-2d1f-4d1e-bec8-980ab77f7f59,58,title-623771,56,2000-09-26T00:00:00.000Z,createdBy.ddaz@example.net,2009-10-25T00:00:00.000Z,modifiedBy.ddaz@example.org
-31116996-6429-41b0-8884-582be9f8d5ae,25881386-1f25-497d-b286-6bef74961a03,97,title-25881386,42,2019-01-12T00:00:00.000Z,createdBy.feq7e@example.net,2002-08-18T00:00:00.000Z,modifiedBy.feq7e@example.org
-31116996-6429-41b0-8884-582be9f8d5ae,25881387-3797-4425-aa04-f8409387f06a,46,title-25881387,66,2018-10-22T00:00:00.000Z,createdBy.feq7f@example.net,2007-03-09T00:00:00.000Z,modifiedBy.feq7f@example.org
-3111700c-f1ef-4f1c-937c-23b9c6e51cc4,27683523-83e3-4339-884f-0744a777df1c,13,title-27683523,56,2014-04-14T00:00:00.000Z,createdBy.ghcqr@example.org,2011-11-21T00:00:00.000Z,modifiedBy.ghcqr@example.org
-3111700c-f1ef-4f1c-937c-23b9c6e51cc4,27683524-5877-40e0-bf80-3cc9a86568e1,80,title-27683524,23,2020-01-27T00:00:00.000Z,createdBy.ghcqs@example.com,2020-09-16T00:00:00.000Z,modifiedBy.ghcqs@example.net
-31117015-4ff1-47d2-a333-20c178e8749f,26913272-ff14-4bf9-af16-8f68a267570a,73,title-26913272,70,2019-01-24T00:00:00.000Z,createdBy.g0uew@example.org,2019-05-02T00:00:00.000Z,modifiedBy.g0uew@example.net
-31117015-4ff1-47d2-a333-20c178e8749f,26913273-07bd-415f-b2cc-fbc1a00c9bce,68,title-26913273,11,2002-09-01T00:00:00.000Z,createdBy.g0uex@example.com,2020-08-02T00:00:00.000Z,modifiedBy.g0uex@example.org
-31117020-b5f1-4f6b-b94f-b1bd91745207,29176364-57e4-4936-90ba-4b00d43789dd,61,title-29176364,95,2023-01-24T00:00:00.000Z,createdBy.hdcmk@example.com,2022-05-15T00:00:00.000Z,modifiedBy.hdcmk@example.com
-31117020-b5f1-4f6b-b94f-b1bd91745207,29176365-1226-4aa4-a712-70c1886127ec,44,title-29176365,15,2023-04-02T00:00:00.000Z,createdBy.hdcml@example.com,2022-10-22T00:00:00.000Z,modifiedBy.hdcml@example.com
-31117035-ee67-4eee-b86c-5f8cbeeb82c6,5767712a-201b-45e2-9cd3-b080c2cd079b,59,title-5767712,78,2002-11-12T00:00:00.000Z,createdBy.3fme8@example.org,2005-07-10T00:00:00.000Z,modifiedBy.3fme8@example.org
-31117035-ee67-4eee-b86c-5f8cbeeb82c6,57677138-c3e6-42b3-9a6a-67242690a40a,40,title-5767713,63,2012-08-13T00:00:00.000Z,createdBy.3fme9@example.net,2014-08-07T00:00:00.000Z,modifiedBy.3fme9@example.com
-31117043-bf69-47d1-97ab-2f18aff04080,22518909-8c60-48bf-90a5-d245a8dcdb67,28,title-22518909,75,2019-03-11T00:00:00.000Z,createdBy.denp9@example.org,2002-06-18T00:00:00.000Z,modifiedBy.denp9@example.net
-31117043-bf69-47d1-97ab-2f18aff04080,22518910-bf8d-4935-b79d-43ba1c334b14,95,title-22518910,39,2001-04-19T00:00:00.000Z,createdBy.denpa@example.com,2001-09-25T00:00:00.000Z,modifiedBy.denpa@example.net
-31117059-3d2a-4798-a13a-cf47d63ce6ad,10937024-759e-4742-93d7-02c14e080196,53,title-10937024,70,2013-09-22T00:00:00.000Z,createdBy.6if28@example.org,2010-03-30T00:00:00.000Z,modifiedBy.6if28@example.org
-31117059-3d2a-4798-a13a-cf47d63ce6ad,10937025-83a4-4a1a-8997-92821d83738c,95,title-10937025,34,2017-01-21T00:00:00.000Z,createdBy.6if29@example.org,2002-03-13T00:00:00.000Z,modifiedBy.6if29@example.net
+4165295e-0cd0-4711-8878-cddbf37b7b98,10297119-3cde-40c0-8f42-0d447921a420,1,The Orchard Gate,72,2024-01-10T09:20:00.000Z,catalog.admin@example.com,2025-08-18T10:35:00.000Z,catalog.editor@example.com
+4165295e-0cd0-4711-8878-cddbf37b7b98,10297120-4e9c-4cfa-82a5-d7945b380406,2,A Winter Inventory,84,2024-01-10T09:21:00.000Z,catalog.admin@example.com,2025-08-18T10:36:00.000Z,catalog.editor@example.com
+4165295e-0cd0-4711-8878-cddbf37b7b98,d7c5144b-7c38-4b44-b0d0-8d745d212a91,3,Letters Under Glass,91,2024-01-10T09:22:00.000Z,catalog.admin@example.com,2025-08-18T10:37:00.000Z,catalog.editor@example.com
+4165295e-0cd0-4711-8878-cddbf37b7b98,e2b59fdc-4b2a-4f8b-9ad8-47df73dcd7ec,4,Harvest at First Light,89,2024-01-10T09:23:00.000Z,catalog.admin@example.com,2025-08-18T10:38:00.000Z,catalog.editor@example.com
+4165296d-9dc0-4ff7-8086-3719fa944d1d,8949209c-e9d6-4e3d-9d6d-848481258ae1,1,Encrypted Beginnings,88,2024-01-12T10:05:00.000Z,catalog.admin@example.com,2025-08-20T12:20:00.000Z,catalog.editor@example.com
+4165296d-9dc0-4ff7-8086-3719fa944d1d,89492101-5761-434b-a9b1-63aee44afc88,2,The Auditor Node,102,2024-01-12T10:06:00.000Z,catalog.admin@example.com,2025-08-20T12:21:00.000Z,catalog.editor@example.com
+4165296d-9dc0-4ff7-8086-3719fa944d1d,c05c293d-4f8e-45d1-a0f0-44c368b7f3a0,3,Midnight Reconciliation,94,2024-01-12T10:07:00.000Z,catalog.admin@example.com,2025-08-20T12:22:00.000Z,catalog.editor@example.com
+4165296d-9dc0-4ff7-8086-3719fa944d1d,fae36d95-8084-4bf4-a593-16a4b1d4a660,4,The Ledger Opens,100,2024-01-12T10:08:00.000Z,catalog.admin@example.com,2025-08-20T12:23:00.000Z,catalog.editor@example.com
+4165297b-4c9b-4b8e-9797-8ef0fcebde3d,29363739-b424-44be-8115-dfcbbb6d68dc,1,Signals in the Office,60,2024-01-15T08:35:00.000Z,catalog.admin@example.com,2025-07-02T09:50:00.000Z,catalog.editor@example.com
+4165297b-4c9b-4b8e-9797-8ef0fcebde3d,29363740-dfcf-4e34-ae40-9a5da68fdef3,2,Model Drift,76,2024-01-15T08:36:00.000Z,catalog.admin@example.com,2025-07-02T09:51:00.000Z,catalog.editor@example.com
+4165297b-4c9b-4b8e-9797-8ef0fcebde3d,5c8b680b-8dd2-4f40-a5a8-c6bbdd9cd122,3,The Human Review,72,2024-01-15T08:37:00.000Z,catalog.admin@example.com,2025-07-02T09:52:00.000Z,catalog.editor@example.com
+4165297b-4c9b-4b8e-9797-8ef0fcebde3d,0d5f5aa7-5e6b-427e-9f7e-5e65c76b9aae,4,Quiet Deployment,80,2024-01-15T08:38:00.000Z,catalog.admin@example.com,2025-07-02T09:53:00.000Z,catalog.editor@example.com
+41652985-80a9-4734-acbc-2cda7fe0e43e,23551486-739d-41c6-8804-f7bf1d84adef,1,Workshop of Springs,74,2024-01-19T13:25:00.000Z,catalog.admin@example.com,2025-06-11T14:55:00.000Z,catalog.editor@example.com
+41652985-80a9-4734-acbc-2cda7fe0e43e,23551487-277b-4c0e-a2ed-085d698a1da3,2,Blueprints and Brass,80,2024-01-19T13:26:00.000Z,catalog.admin@example.com,2025-06-11T14:56:00.000Z,catalog.editor@example.com
+41652985-80a9-4734-acbc-2cda7fe0e43e,1a669844-5e5f-4ad1-a951-32cf88fb7755,3,The Compact Engine,72,2024-01-19T13:27:00.000Z,catalog.admin@example.com,2025-06-11T14:57:00.000Z,catalog.editor@example.com
+41652985-80a9-4734-acbc-2cda7fe0e43e,b572d742-6e86-4897-a6d1-506a660584de,4,Field Notes,86,2024-01-19T13:28:00.000Z,catalog.admin@example.com,2025-06-11T14:58:00.000Z,catalog.editor@example.com
+41652991-b8e8-4820-ac33-6f2a815ba94a,90007338-887b-4632-b2b4-926e0fe127a6,1,Fog on Pier Seven,82,2024-02-02T11:15:00.000Z,catalog.admin@example.com,2025-05-29T16:30:00.000Z,catalog.editor@example.com
+41652991-b8e8-4820-ac33-6f2a815ba94a,900074f6-e6ec-44f3-9be4-dda45ebb5886,2,The Missing Watchman,90,2024-02-02T11:16:00.000Z,catalog.admin@example.com,2025-05-29T16:31:00.000Z,catalog.editor@example.com
+41652991-b8e8-4820-ac33-6f2a815ba94a,ee15d3f4-ae16-4453-a6fb-946ebf0d4a98,3,Ledger of Tides,84,2024-02-02T11:17:00.000Z,catalog.admin@example.com,2025-05-29T16:32:00.000Z,catalog.editor@example.com
+41652991-b8e8-4820-ac33-6f2a815ba94a,f994ca5c-e0c6-45a5-b8b4-121a7dbebfb1,4,Dusk Confession,96,2024-02-02T11:18:00.000Z,catalog.admin@example.com,2025-05-29T16:33:00.000Z,catalog.editor@example.com
+4165300c-2559-4663-bfe0-6bb921e9cdfe,16196390-dc38-4403-9b61-b7e7b33c6b17,1,Signals of Confidence,54,2024-02-07T15:40:00.000Z,catalog.admin@example.com,2025-07-17T10:10:00.000Z,catalog.editor@example.com
+4165300c-2559-4663-bfe0-6bb921e9cdfe,16196391-ba7a-4574-86c4-5a9a1955befd,2,Trust Breakpoints,62,2024-02-07T15:41:00.000Z,catalog.admin@example.com,2025-07-17T10:11:00.000Z,catalog.editor@example.com
+4165300c-2559-4663-bfe0-6bb921e9cdfe,3a0c29d4-9493-43d9-8d82-6a8b4e3b9a6e,3,Consent by Design,68,2024-02-07T15:42:00.000Z,catalog.admin@example.com,2025-07-17T10:12:00.000Z,catalog.editor@example.com
+4165300c-2559-4663-bfe0-6bb921e9cdfe,4e77ef16-bc54-49db-9231-58dce996fb3c,4,Operational Safeguards,80,2024-02-07T15:43:00.000Z,catalog.admin@example.com,2025-07-17T10:13:00.000Z,catalog.editor@example.com
+41653019-4a40-41c8-a82f-94c140bda8c9,13983953-06dd-4070-8449-36fea9c8d9bf,1,The Station in Snow,100,2024-02-14T09:10:00.000Z,catalog.admin@example.com,2025-04-21T12:45:00.000Z,catalog.editor@example.com
+41653019-4a40-41c8-a82f-94c140bda8c9,13983954-9ded-48b7-b56a-5878e50812f3,2,Letters from Bergen,104,2024-02-14T09:11:00.000Z,catalog.admin@example.com,2025-04-21T12:46:00.000Z,catalog.editor@example.com
+41653019-4a40-41c8-a82f-94c140bda8c9,70b8594d-e9b4-492e-b184-d542e1211b42,3,Passage Through Trondheim,98,2024-02-14T09:12:00.000Z,catalog.admin@example.com,2025-04-21T12:47:00.000Z,catalog.editor@example.com
+41653019-4a40-41c8-a82f-94c140bda8c9,6c1f357e-6c73-49f8-97c9-7cf763e0321e,4,The Northern Reply,114,2024-02-14T09:13:00.000Z,catalog.admin@example.com,2025-04-21T12:48:00.000Z,catalog.editor@example.com
+4165302a-139c-4186-8089-0e4df136b64b,26857786-0e74-400e-ab75-d6d3f6ef19cd,1,Foundations of Cloud Delivery,72,2024-03-01T08:50:00.000Z,catalog.admin@example.com,2025-08-05T12:00:00.000Z,catalog.editor@example.com
+4165302a-139c-4186-8089-0e4df136b64b,26857787-703c-402f-942d-6890fdbe8090,2,Service Boundaries,86,2024-03-01T08:51:00.000Z,catalog.admin@example.com,2025-08-05T12:01:00.000Z,catalog.editor@example.com
+4165302a-139c-4186-8089-0e4df136b64b,92e3d7b8-8c23-40e1-af37-589f6d1fbf13,3,Resilient Integration,82,2024-03-01T08:52:00.000Z,catalog.admin@example.com,2025-08-05T12:02:00.000Z,catalog.editor@example.com
+4165302a-139c-4186-8089-0e4df136b64b,a4de6da1-d03f-4d7f-a2af-e09cc8dd6d8f,4,Operating the Platform,88,2024-03-01T08:53:00.000Z,catalog.admin@example.com,2025-08-05T12:03:00.000Z,catalog.editor@example.com
+41653036-f065-4b3c-ad03-942aee222b85,10033103-0ea6-4cec-a75f-c5c9294fdc04,1,Seedlings,70,2024-03-09T14:15:00.000Z,catalog.admin@example.com,2025-06-02T09:25:00.000Z,catalog.editor@example.com
+41653036-f065-4b3c-ad03-942aee222b85,10033104-c01a-44c9-a479-26c0937199b0,2,The Summer Trial,78,2024-03-09T14:16:00.000Z,catalog.admin@example.com,2025-06-02T09:26:00.000Z,catalog.editor@example.com
+41653036-f065-4b3c-ad03-942aee222b85,cb54fe35-43df-42b6-9ad7-3fa09ecf77dd,3,Glasshouse Secrets,76,2024-03-09T14:17:00.000Z,catalog.admin@example.com,2025-06-02T09:27:00.000Z,catalog.editor@example.com
+41653036-f065-4b3c-ad03-942aee222b85,d0db25aa-0f30-4599-b7f0-a73a9565cc0d,4,First Frost,80,2024-03-09T14:18:00.000Z,catalog.admin@example.com,2025-06-02T09:28:00.000Z,catalog.editor@example.com
+41653044-b1b3-45af-a929-d0409d4925ff,8600204f-0f28-40df-86e4-37c9b4da32dc,1,Rivers and Markets,84,2024-03-16T11:00:00.000Z,catalog.admin@example.com,2025-05-12T13:40:00.000Z,catalog.editor@example.com
+41653044-b1b3-45af-a929-d0409d4925ff,8600205b-7c41-40a1-b607-cab1d2d0a61f,2,The Price of Water,96,2024-03-16T11:01:00.000Z,catalog.admin@example.com,2025-05-12T13:41:00.000Z,catalog.editor@example.com
+41653044-b1b3-45af-a929-d0409d4925ff,81c227d2-d4f8-46e9-9f7c-9eec1b98771c,3,Public Goods in Practice,88,2024-03-16T11:02:00.000Z,catalog.admin@example.com,2025-05-12T13:42:00.000Z,catalog.editor@example.com
+41653044-b1b3-45af-a929-d0409d4925ff,7dd3f6ec-52ab-4a22-a9ef-354b1f20ee07,4,Forecast at the Delta,100,2024-03-16T11:03:00.000Z,catalog.admin@example.com,2025-05-12T13:43:00.000Z,catalog.editor@example.com

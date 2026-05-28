@@ -5,6 +5,11 @@ annotate service.Books with @(
         Data : [
             {
                 $Type : 'UI.DataField',
+                Value : title,
+                Label : 'title',
+            },
+            {
+                $Type : 'UI.DataField',
                 Label : 'genre',
                 Value : genre,
             },
@@ -27,6 +32,11 @@ annotate service.Books with @(
                 $Type : 'UI.DataField',
                 Value : status_code,
                 Criticality : status.criticality,
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : currency_code,
+                Label : 'Currency',
             },
         ],
     },
@@ -182,5 +192,9 @@ annotate service.Books with {
         },
         Common.ValueListWithFixedValues : true,
     )
+};
+
+annotate service.Books with {
+    currency @Common.ValueListWithFixedValues : true
 };
 
