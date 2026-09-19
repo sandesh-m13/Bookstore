@@ -114,11 +114,12 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable",
-                    "condensedTableLayout": true
+                    "condensedTableLayout": false,
+                    "widthIncludingColumnHeader": true
                   },
                   "columns": {
                     "DataField::status_code": {
-                      "widthIncludingColumnHeader": false
+                      "widthIncludingColumnHeader": true
                     }
                   }
                 }
@@ -134,7 +135,14 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Books"
+              "contextPath": "/Books",
+              "controlConfiguration": {
+                "Chapters/@com.sap.vocabularies.UI.v1.LineItem#Chapters": {
+                  "tableSettings": {
+                    "type": "ResponsiveTable"
+                  }
+                }
+              }
             }
           }
         }

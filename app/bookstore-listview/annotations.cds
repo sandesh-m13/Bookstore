@@ -10,8 +10,8 @@ annotate service.Books with @(
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'genre',
-                Value : genre,
+                Label : 'Genre',
+                Value : genre_code,
             },
             {
                 $Type : 'UI.DataField',
@@ -75,7 +75,7 @@ annotate service.Books with @(
         {
             $Type : 'UI.DataField',
             Label : 'Genre',
-            Value : genre,
+            Value : genre_code,
         },
         {
             $Type : 'UI.DataField',
@@ -100,6 +100,7 @@ annotate service.Books with @(
     ],
     UI.SelectionFields : [
         status_code,
+        genre_code,
     ],
     UI.HeaderInfo : {
         TypeName : 'Book',
@@ -196,5 +197,34 @@ annotate service.Books with {
 
 annotate service.Books with {
     currency @Common.ValueListWithFixedValues : true
+};
+
+annotate service.Books with {
+    genre @(
+        Common.Label : 'Genre',
+        Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'GenreVH',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : genre_code,
+                    ValueListProperty : 'code',
+                },
+                {
+                    $Type : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty : 'description',
+                },
+            ],
+        },
+        Common.ValueListWithFixedValues : false,
+        Common.Text : genre.description,
+        )
+};
+
+annotate service.GenreVH with {
+    code @(
+        Common.Text : description,
+        )
 };
 
