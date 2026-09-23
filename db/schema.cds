@@ -40,7 +40,7 @@ type Genre : String enum {
 }
 
 entity StatusCode {
-  key code        : String(1) enum {
+  key code        : String(1) enum {    
         Available = 'A';
         Low_Stock = 'L';
         Unavailable = 'U';
