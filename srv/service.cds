@@ -42,3 +42,4 @@ service BookStoreService {
 }
 
 annotate BookStoreService.Books with @odata.draft.enabled;
+annotate BookStoreService.Authors with @odata.draft.enabled;
