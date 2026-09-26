@@ -54,18 +54,19 @@ entity StatusCode {
 }
 
 entity Authors : cuid, managed {
-  name        : String;
-  fileName    : String;
-  //Manual File upload logic added Content field in object page 
+  name              : String;
+  fileName          : String;
+  //Manual File upload logic added Content field in object page
   // fileType    : String      @Core.IsMediaType;
   // content     : LargeBinary @Core.MediaType                  : fileType
   //                           @Core.AcceptableMediaTypes       : ['application/pdf']
   //                           @Core.ContentDisposition.Filename: fileName;
 
   //Using attachment plugin from npm to handle attachments
-  attachments : Composition of many Attachments;
-  books       : Association to many Books
-                  on books.author = $self;
+  virtual bookCount : String;
+  attachments       : Composition of many Attachments;
+  books             : Association to many Books
+                        on books.author = $self;
 }
 
 entity Chapters : cuid, managed {

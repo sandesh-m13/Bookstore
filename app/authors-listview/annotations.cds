@@ -1,7 +1,12 @@
 using BookStoreService as service from '../../srv/service';
 annotate service.Authors with @(
     UI.Facets : [
-        
+        {
+            $Type : 'UI.ReferenceFacet',
+            Label : 'Book Details',
+            ID : 'BookDetails',
+            Target : '@UI.FieldGroup#BookDetails',
+        },
     ],
     UI.FieldGroup #Ebook : {
         $Type : 'UI.FieldGroupType',
@@ -20,5 +25,15 @@ annotate service.Authors with @(
             Label : 'Author Name',
         },
     ],
+    UI.FieldGroup #BookDetails : {
+        $Type : 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type : 'UI.DataField',
+                Value : bookCount,
+                Label : 'Book Count',
+            },
+        ],
+    },
 );
 
