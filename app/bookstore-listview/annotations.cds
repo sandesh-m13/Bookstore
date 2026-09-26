@@ -95,7 +95,7 @@ annotate service.Books with @(
         {
             $Type : 'UI.DataField',
             Value : stock,
-            Label : 'stock',
+            Label : 'Stock',
         },
         {
             $Type : 'UI.DataFieldForAction',
@@ -206,20 +206,9 @@ annotate service.Chapters with @(
 annotate service.Books with {
     status @(
         Common.Label : 'Status',
-        Common.ExternalID : status.statusText,
-        Common.ValueList : {
-            $Type : 'Common.ValueListType',
-            CollectionPath : 'StatusCode',
-            Parameters : [
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    LocalDataProperty : status_code,
-                    ValueListProperty : 'code',
-                },
-            ],
-        },
-        Common.ValueListWithFixedValues : true,
-    )
+        Common.Text : status.statusText,
+        Common.Text.@UI.TextArrangement : #TextOnly,
+        )
 };
 
 annotate service.Books with {
