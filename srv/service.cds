@@ -1,6 +1,20 @@
 using {tutorial.db as db} from '../db/schema';
 
 service BookStoreService {
+
+    @(restrict: [ //retricting access as per role.
+        {
+            grant: [
+                'READ',
+                'WRITE'
+            ],
+            to   : ['admin']
+        },
+        {
+            grant: 'READ',
+            to   : 'authenticated-user'
+        }
+    ])
     entity Books      as projection on db.Books
                          //Bound Actions
         actions {
@@ -31,6 +45,7 @@ service BookStoreService {
 
     //Unbound Action
     @(Common.SideEffects: {TargetEntities: ['/BookStoreService.EntityContainer/Books']})
+    @(requires: 'user-can-add-discount') //we can add authorization to certain action as well
     action addDiscount();
 
     entity Authors    as projection on db.Authors;
@@ -42,4 +57,8 @@ service BookStoreService {
 }
 
 annotate BookStoreService.Books with @odata.draft.enabled;
-annotate BookStoreService.Authors with @odata.draft.enabled;
+
+annotate BookStoreService.Authors with @(
+    odata.draft.enabled,
+    requires: 'admin'
+);
